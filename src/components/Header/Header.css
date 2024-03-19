@@ -1,0 +1,41 @@
+.header{
+    display: flex;
+    flex-direction: row;
+    height: 130px;
+}
+
+.List_div{
+    flex:3;
+    background-color: lightyellow;
+    display: flex;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
+    justify-content: center; /* 수평 가운데 정렬 */
+    align-items: center; /* 수직 가운데 정렬 */
+
+}
+.body_div{
+    flex:7;
+    display: flex;
+    justify-content: center; /* 수평 가운데 정렬 */
+    align-items: center; /* 수직 가운데 정렬 */
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
+    
+}
+
+.Note_name {
+    font-weight: bold;
+    font-size: 30px;
+    margin-left: 30px;
+    flex:3;
+}
+
+.Create_note{
+    width: 30px;
+    height: 30px;
+    border-radius: 5px;
+    margin: 30px;
+}
+
+.Create_note:hover{
+    background-color: #61dafb;
+}

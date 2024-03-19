@@ -1,3 +1,4 @@
+//npx create-react-app my-app --template typescript
 {
   "compilerOptions": {
     "target": "es5",

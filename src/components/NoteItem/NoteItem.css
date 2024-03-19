@@ -1,0 +1,14 @@
+.NoteItems{
+    display: flex;
+    flex-wrap: wrap; /* 요소들이 넘칠 경우 자동으로 다음 줄에 배치 */
+}
+
+.NoteItem{
+    display: flex;
+    flex-direction: column;
+    height: 200px;
+    width: 200px;
+    border: 1px solid #000;
+    border-radius: 3px;
+    margin: 10px;
+}
